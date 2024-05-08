@@ -10,10 +10,12 @@ $assunto = "Coleta de dados - Portfolio";
 
 $corpo = "Nome: " . $nome . "\n" . "Email: " . $email . "\n" . "Telefone: " . $telefone . "\n" . $mensagem;
 
-$cabecalho = "From newcontato.portfolio@gmail.com" . "\n" . "Reply-to: " . $email . "\n" . "X=Mailer:PHP/" . phpversion();
+$cabecalho = "From: newcontato.portfolio@gmail.com"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
 
 if (mail($destino, $assunto, $corpo, $cabecalho)) {
   echo ("E-mail enviado com sucesso!");
 } else {
   echo ("Houve um erro ao tentar enviar o e-mail!");
 }
+
+?>
