@@ -2,7 +2,7 @@
 
 $nome = addslashes($_POST['nome']);
 $email = addslashes($_POST['email']);
-$nome = addslashes($_POST['telefone']);
+$telefone = addslashes($_POST['telefone']);
 $mensagem = addslashes($_POST['mensagem']);
 
 $destino = "newcontato.portfolio@gmail.com";
