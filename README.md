@@ -3,6 +3,7 @@
 # Sobre o projeto
 
 Este projeto de portfolio foi criado por mim, para que eu possa colocar meus projetos futuros em evidência em um blog pessoal.
+Segue link para deploy: https://portfolio-lucas-theta.vercel.app
 
 ## Layout mobile
 ![Mobile 1](images/portfolio-mobile1.png) ![Mobile 2](images/portfolio-mobile2.png)
